@@ -13,6 +13,13 @@ A merge conflict will arise due to conflicting changes to the file containing yo
 4. Push the branch to the remote repository.
 5. Create a pull request with your branch and provide any additional details or explanations related to your solution.
 
-Note: The main branch to use for this exercise is **development**
+Branch list:
+EN-2023 -> Enzo
+FL-2023 -> Flor
+IS-2023 -> Isabella
+MA-2023 -> Mateo
+MT-2023 -> Matias
+
+Note: The main branch to use for this exercise is **MERGE-2023**
 
 Please note that the main objective of this challenge is to demonstrate your ability to resolve merge conflicts using Git. Good luck!
