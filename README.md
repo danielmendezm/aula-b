@@ -38,11 +38,3 @@ Throughout the bootcamp, you will work on some projects that demonstrate your un
 
 Detailed instructions and requirements for each project can be found in the respective project folders.
 
-## 🤝 Contributing
-
-If you find any issues or have suggestions for improving this bootcamp, we encourage you to contribute. You can contribute by:
-
-- Reporting issues: If you come across any problems or bugs, please open an issue in the repository.
-- Submitting pull requests: If you have any enhancements or fixes to propose, feel free to submit a pull request.
-
-We appreciate your contributions and feedback!
