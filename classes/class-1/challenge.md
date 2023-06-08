@@ -22,4 +22,4 @@ MT-2023 -> Matias
 
 Note: The main branch to use for this exercise is **MERGE-2023**
 
-Please note that the main objective of this challenge is to demonstrate your ability to resolve merge conflicts using Git. Good luck!
+Please note that the main objective of this challenge is to demonstrate your ability to resolve merge conflicts using Git. Good luck!!
