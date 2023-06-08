@@ -33,7 +33,7 @@ To get started with the bootcamp, follow these steps:
 
 Throughout the bootcamp, you will work on some projects that demonstrate your understanding and application of the concepts learned. The projects are designed to be hands-on and provide you with practical experience. Here's a list of the projects included:
 
-- Project 1: [Movie APP]
+- Project 1: [Blog App]
 - ...
 
 Detailed instructions and requirements for each project can be found in the respective project folders.
