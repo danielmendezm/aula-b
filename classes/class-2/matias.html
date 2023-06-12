@@ -12,22 +12,31 @@
     <header>
         <nav class="nav">
             <ul class="flex flex-row gap-10 justify-end mr-10">
-                <li class="cursor-pointer bg-sky-100 rounded-md p-1 hover:bg-sky-300 hover:underline">Home</li>
-                <li class="cursor-pointer bg-sky-100 rounded-md p-1 hover:bg-sky-300 hover:underline">Blog</li>
-                <li class="cursor-pointer bg-sky-100 rounded-md p-1 hover:bg-sky-300 hover:underline">Contact Us</li>
+                <li class="cursor-pointer bg-sky-100 rounded-md p-1 hover:bg-sky-300 hover:underline"><a href="#"> Home</a></li>
+                <li class="cursor-pointer bg-sky-100 rounded-md p-1 hover:bg-sky-300 hover:underline"><a href="#"> Blog</a></li>
+                <li class="cursor-pointer bg-sky-100 rounded-md p-1 hover:bg-sky-300 hover:underline"><a href="#"> Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <!-- MAIN BODY -->
     <main>
         <h1 class="text-3xl font-bold underline text-center">Matias's Blog</h1>
-        <section class="flex flex-col justify-center items-center m-10 gap-10">
+        <aside class="relative inline-block bg-sky-300 w-48 w-1/3 float-left h-96 rounded-xl m-10">
+            <ul class="flex flex-col gap-10 p-10 text-center items-center justify-center">
+                <li><a class="hover:underline" href="#">link</a></li>
+                <li><a class="hover:underline" href="#">link</a></li>
+                <li><a class="hover:underline" href="#">link</a></li>
+                <li><a class="hover:underline" href="#">link</a></li>
+                <li><a class="hover:underline" href="#">link</a></li>
+            </ul>
+        </aside>
+        <section class="relative inline-block right-0 flex flex-col justify-center items-center m-10 gap-10 w-2/3">
             <article class="article rounded-md border-2 border-slate-200 p-5 hover:border-4">
-                <h3 class="text-xl font-bold underline">My first Blog Post</h3>
+                <h2 class="text-xl font-bold underline">My first Blog Post</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero enim earum, odio ex laudantium iusto neque voluptatem laboriosam ullam sed perspiciatis. Aspernatur, labore, ipsa perferendis fugiat, consequuntur repellat incidunt magni quibusdam alias deserunt odio quasi earum distinctio. Quia blanditiis voluptate eveniet aperiam officiis. Vitae dolorem laboriosam natus corrupti explicabo nihil fugiat necessitatibus dolores voluptates quidem sit fugit repellendus architecto, officia et ullam officiis amet nesciunt laborum! Earum inventore quod hic natus neque excepturi dolorum itaque, vero quae id esse ducimus, nobis vel corporis mollitia, rerum molestiae fugit. Voluptate sint facere neque, quo harum, sed quia perspiciatis nemo dolor, dolore impedit!</p>
             </article>
             <article class="article rounded-md border-2 border-slate-200 p-5 hover:border-4">
-                <h3 class="text-xl font-bold underline">My Second Blog Post</h3>
+                <h2 class="text-xl font-bold underline">My Second Blog Post</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores, beatae similique culpa natus excepturi sunt quae libero accusantium est adipisci aut! Nam sapiente porro harum dicta facilis delectus incidunt. Nihil a cum magnam nobis provident consequuntur. Inventore, accusamus autem. Aspernatur dolore dignissimos harum, labore molestiae nisi! Nisi, doloremque id facilis voluptatum quidem ipsam quaerat eius consectetur voluptatem autem, asperiores debitis labore voluptas, itaque blanditiis officiis inventore modi sed veniam!</p>
             </article>
         </section>
