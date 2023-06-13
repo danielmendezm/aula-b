@@ -33,16 +33,8 @@ To get started with the bootcamp, follow these steps:
 
 Throughout the bootcamp, you will work on some projects that demonstrate your understanding and application of the concepts learned. The projects are designed to be hands-on and provide you with practical experience. Here's a list of the projects included:
 
-- Project 1: [Movie APP]
+- Project 1: [Blog App]
 - ...
 
 Detailed instructions and requirements for each project can be found in the respective project folders.
 
-## 🤝 Contributing
-
-If you find any issues or have suggestions for improving this bootcamp, we encourage you to contribute. You can contribute by:
-
-- Reporting issues: If you come across any problems or bugs, please open an issue in the repository.
-- Submitting pull requests: If you have any enhancements or fixes to propose, feel free to submit a pull request.
-
-We appreciate your contributions and feedback!

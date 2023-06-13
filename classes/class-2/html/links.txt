@@ -1,0 +1,4 @@
+# # # Bonus:
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/enctype
+https://www.w3schools.com/accessibility/accessibility_labels.php#gsc.tab=0

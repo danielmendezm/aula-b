@@ -1,0 +1,34 @@
+# # # Bonus:
+
+https://gitexplorer.com/
+https://education.github.com/git-cheat-sheet-education.pdf
+
+# # # To practice:
+
+https://learngitbranching.js.org/?locale=es_ES
+
+Conventional Commits:
+https://www.conventionalcommits.org/en/v1.0.0/
+
+https://www.leniolabs.com/software-development/2023/05/08/Conventional-Commits/
+
+# # # Plus:
+
+git add *.<document type>
+
+git add <document name> <document name>
+
+
+git add -p: When you execute "git add -p", Git will display the changes made in modified files and ask you which changes you want to add to the staging area. For each change, you will be presented with a menu of options that include:
+
+    "y" (yes): to add the change to the staging area.
+    "n" (no): to skip the change and not add it to the staging area.
+    "s" (split): to split a change into smaller parts.
+    "e" (edit): to manually edit the change before adding it.
+    "?" (help): to get help on the available options.
+
+    This approach allows you to carefully review the changes and select only the ones you want to include in the next commit. It is especially useful when you have mixed or partial changes in a file and want to precisely control what is included in the commit.
+
+git status -s
+
+git log --oneline
