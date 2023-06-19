@@ -27,6 +27,9 @@ nav {
 
 main {
   background-color: #a4508b;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 section {
