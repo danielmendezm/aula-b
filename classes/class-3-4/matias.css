@@ -7,6 +7,7 @@
 
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -43,9 +44,9 @@ nav{
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     border: 1px solid #fff;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     margin: 1rem auto;
     background: #C6FFDD;
 }
@@ -66,20 +67,6 @@ li{
     /* transition: all .3s; */
     display: inline-block;
 }
-/* li::after{
-    content:'';
-    width: 0;
-    right: 0;
-    height: 3px;
-    position: absolute;
-    transition: all .3s;
-    bottom: 0;
-}
-
-li:hover::after{
-    width: 100%;
-    background-image: radial-gradient(farthest-corner circle at 0% 0% in oklch, oklch(100% .25 160) 0%, 26%, oklch(75% .5 180) 0% 0%, 46%, oklch(75% .5 210) 0% 0%, 60%, oklch(75% .5 230) 0% 0%, 82%, oklch(75% .5 260) 0% 0%);
-} */
 
 /* *************************************************************************************************
 *************************************************************************************************
@@ -100,7 +87,7 @@ main{
 section{
     border-radius: 2rem;
     min-height: 300px;
-    background-color: #646464;
+    background-color: #3d3d3d;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -126,6 +113,8 @@ section h2{
     gap: 1rem;
     overflow: visible;
     padding: 1rem;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
 }
 
 
@@ -135,7 +124,9 @@ section h2{
 
 article{
     min-height: 100%;
-    width: 280px;
+    flex: 1 1 300px;
+    border-radius: 1rem;
+    scroll-snap-align: center;
 }
 
 .nro1{
@@ -171,5 +162,77 @@ footer{
     align-items: flex-end;
     justify-content: flex-end;
     padding: 1rem;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
+    position: relative;
+    bottom: 0;
+}
+
+
+/* *************************************************************************************************
+*************************************************************************************************
+************************************************************************************************* */
+
+/* MEDIAS QUERIES */
+
+@media screen and (min-width: 768px){
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+
+    section{
+        min-height: 400px;
+    }
+
+    .section-content{
+        display: flex;
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    article{
+        flex: 1 1 225px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    h1{
+        font-size: 5rem;
+    }
+    nav{
+        display: flex;
+    }
+    ul{
+        width: 100%;
+        justify-content: space-around;
+        font-size: 1.7rem;
+    }
+    li{
+        transition: all .3s;
+    }
+    li::after{
+        content:'';
+        width: 0;
+        right: 0;
+        height: 3px;
+        position: absolute;
+        transition: all .3s;
+        bottom: 0;
+    }
+
+    li:hover::after{
+        width: 100%;
+        background-image: radial-gradient(farthest-corner circle at 0% 0% in oklch, oklch(100% .25 160) 0%, 26%, oklch(75% .5 180) 0% 0%, 46%, oklch(75% .5 210) 0% 0%, 60%, oklch(75% .5 230) 0% 0%, 82%, oklch(75% .5 260) 0% 0%);
+    }
+
+    section h2{
+        font-size: 2rem;
+    }
+
+
 }
