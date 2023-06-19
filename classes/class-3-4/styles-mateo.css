@@ -44,18 +44,18 @@ section {
   background-color: #c191a1;
   min-height: 300px;
   max-height: 500px;
-  min-width: 300px;
-  max-width: 500px;
-}
-
-section p {
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 footer {
   background-color: #eabfcb;
   height: 60px;
   width: 100%;
+}
+
+/* Media Queries, Desktop first approach */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
 }
