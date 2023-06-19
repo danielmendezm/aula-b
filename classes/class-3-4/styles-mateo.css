@@ -18,6 +18,13 @@ header {
   background-color: #5f0a87;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: #ffffff;
 }
 
 nav {
@@ -31,6 +38,15 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  list-style-type: none;
+}
+
+nav ul a,
+a:hover,
+a:focus,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 main {
@@ -45,15 +61,21 @@ section {
   min-height: 300px;
   max-height: 500px;
   overflow: hidden;
+  padding: 20px;
+}
+
+section p {
+  padding: 20px;
 }
 
 footer {
   background-color: #eabfcb;
   height: 60px;
   width: 100%;
+  padding: 20px;
 }
 
-/* Media Queries, Desktop first approach */
+/* Media Queries, Desktop first-approach */
 @media (max-width: 768px) {
   main {
     grid-template-columns: 1fr;
