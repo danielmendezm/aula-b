@@ -1,0 +1,23 @@
+/* Background colors selected from this palette https://coolors.co/eabfcb-c191a1-a4508b-5f0a87-2f004f */
+
+/* General */
+
+header {
+  background-color: #5f0a87;
+}
+
+nav {
+  background-color: #2f004f;
+}
+
+main {
+  background-color: #a4508b;
+}
+
+section {
+  background-color: #c191a1;
+}
+
+footer {
+  background-color: #eabfcb;
+}
