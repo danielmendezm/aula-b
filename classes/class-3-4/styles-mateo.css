@@ -2,12 +2,27 @@
 
 /* General */
 
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-color: #5f0a87;
+  height: 80px;
+  width: 100%;
 }
 
 nav {
   background-color: #2f004f;
+  height: 50px;
+  width: 100%;
 }
 
 main {
@@ -16,8 +31,12 @@ main {
 
 section {
   background-color: #c191a1;
+  min-height: 300px;
+  max-height: 500px;
 }
 
 footer {
   background-color: #eabfcb;
+  height: 60px;
+  width: 100%;
 }
