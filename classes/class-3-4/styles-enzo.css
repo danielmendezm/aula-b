@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #FFFCF2;
+}
+
+nav {
+    background-color: #CCC5B9;
+}
+
+main {
+    background-color: #403D39;
+}
+
+section {
+    background-color: #252422;
+}
+
+footer {
+    background-color: #EB5E28;
+}
