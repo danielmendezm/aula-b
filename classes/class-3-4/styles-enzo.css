@@ -37,12 +37,18 @@ nav ul a, a:hover,a:focus,a:active {
 
 main {
     background-color: #403D39;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 section {
     background-color: #252422;
+    color: white;
+    font-size: 1.4rem;
     min-height: 30rem;
     max-height: 50rem;
+    padding: 2rem;
 }
 
 footer {
