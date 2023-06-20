@@ -8,17 +8,31 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial;
 }
 
 header {
     background-color: #FFFCF2;
     width: 100%;
     height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-nav {
-    background-color: #CCC5B9;
-    height: 5rem;
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul a, a:hover,a:focus,a:active {
+  color: #140101;
+  text-decoration: none;
 }
 
 main {
