@@ -55,4 +55,12 @@ footer {
     background-color: #EB5E28;
     width: 100%;
     height: 6rem;
+    font-size: 2rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
