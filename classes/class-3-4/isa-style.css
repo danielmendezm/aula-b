@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html{
   font-size: 16px;
 }
@@ -85,4 +91,10 @@ footer p {
   display: inline-block;
   padding: 20px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+html{
+  font-size: 12px;
+}
 }
