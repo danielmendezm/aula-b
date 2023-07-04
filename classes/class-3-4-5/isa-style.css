@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Pathway Extreme', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+h4{
+  font-size: 1.2rem;
+  padding: 10px 0 10px;
+}
+
+p{
+  font-size: 1rem;
+}
+header {
+  background-color: #C2DEDC;
+  height: 80px;
+}
+
+header h1 {
+  margin: 20px 20px auto; 
+  font-size: 2rem; 
+}
+
+nav {
+  background-color: #ECE5C7;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav li {
+  margin-right: 10px;   
+  font-size: 0.9rem; 
+  font-weight: bold;  
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-grow: 1;
+  background-color: #c5b392;
+  padding: 10px;
+}
+
+section {
+  flex: 1;
+  flex-basis: 300px;
+  min-height: 300px;
+  max-height: 500px;
+  background-color:  #CDC2AE;
+  padding: 20px;
+  overflow: auto;
+}
+
+footer {
+  background-color: #116A7B;
+  height: 60px;
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+html{
+  font-size: 12px;
+}
+}
